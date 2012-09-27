@@ -25,7 +25,7 @@ $(PACKAGE): $(INSTALL_ROOT)/$(SCRIPT)
 		--maintainer "$(MAINTAINER)" \
 		--exclude '.git*' \
 		--exclude '*/.git*' \
-		-d perl-Proc-Daemon -d jre \
+		-d "perl-Proc-Daemon >= 0.14" -d jre \
 		usr
 
 $(INSTALL_ROOT)/$(SCRIPT):
