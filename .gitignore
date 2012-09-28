@@ -1,3 +1,2 @@
 *.rpm
-deps
-inst_root/usr/bin/mcwrapper
+inst_root
