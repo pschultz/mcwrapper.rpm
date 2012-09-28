@@ -40,4 +40,4 @@ clean:
 	rm -f $(PACKAGE)
 
 distclean: clean
-	rm -f $(INSTALL_ROOT)
+	rm -rf $(INSTALL_ROOT)
