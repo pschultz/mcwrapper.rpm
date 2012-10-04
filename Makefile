@@ -1,5 +1,5 @@
 NAME    := mcwrapper
-VERSION := 0.1.3
+VERSION := 0.1.4
 ARCH    := noarch
 OS      := el6
 
